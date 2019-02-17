@@ -1,1 +1,1 @@
-
+I have implemented the Porter Stemmer from scratch based on https://tartarus.org/martin/PorterStemmer/def.txt. I have given a paragraph text as input, tokenized words, and then stemmed it to obtain the stemmed word as output1 using my algorithm. Then i have stemmed the same words using NLTK's PorterStemmer and obtain the stemmed word as output2. Then the two outputs are compared to print the Accuracy.
