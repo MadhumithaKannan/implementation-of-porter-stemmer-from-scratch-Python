@@ -321,8 +321,8 @@ for wordz in words:
         word = p.step_5a(word)
         # print(word)
         word = p.step_5b(word)
-        print("MY PORTER OUTPUT", word)
-        print("NLTK PORTER OUTPUT", ps.stem(wordz))
+        print("MY PORTER OUTPUT", word) #output1
+        print("NLTK PORTER OUTPUT", ps.stem(wordz)) #output2
         wordcount += 1  # NUMBER OF WORDS PASSING THROUGH STEMMER
         if ps.stem(wordz) == word:
             count += 1  # NUMBER OF WORDS STEMMED CORRECTLY
